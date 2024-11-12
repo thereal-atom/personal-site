@@ -21,9 +21,15 @@
                     <h1 class="text-3xl font-semibold max-sm:text-2xl">Oscar Falemara</h1>
                     <span class="w-fit px-2 py-1 bg-[#111111] text-[8px] font-medium border border-white border-opacity-5 rounded-md">🚀 Open to Opportunities</span>
                     <p class="mt-8 text-[#DADDE7] max-2xl:mt-4 max-sm:text-sm">I'm a self-taught <span class="font-medium underline">full stack web developer</span> from <span class="pl-1 pr-1.5 py-0.5 bg-[#111111] font-medium border border-white border-opacity-5 rounded-md">📍London</span> with over 4 years of experience.</p>
-                    <p class="mt-4 text-[#DADDE7] max-sm:text-sm">Software engineer, aerospace engineering student, entrepreneur and freelancer.</p>
+                    <p class="mt-4 text-[#DADDE7] max-sm:text-sm">Substantial knowledge about systems programming, machine learning, blockchain and more.</p>
                 </div>
-                <div class="box w-auto h-full aspect-square max-xl:hidden"></div>
+                <div class="box w-auto h-full aspect-square max-xl:hidden">
+                    <img
+                        class="w-auto h-full min-w-full min-h-full object-cover rounded-[32px] opacity-80 hover:opacity-100 transition-opacity"
+                        src="/sunrise.jpg"
+                        alt="sunrise"
+                    />
+                </div>
             </div>
             <div class="flex flex-col justify-between h-[66.5%] max-xl:flex max-xl:flex-col-reverse">
                 <div class="flex flex-row justify-between h-[49%] max-xl:h-[200px] max-xl:mt-4 max-md:mt-0 max-md:flex-col max-md:h-full">
@@ -33,7 +39,7 @@
                             src="/cribgoch.jpg"
                             alt="cribgoch"
                         />
-                        <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#1B1B1B] text-xs border border-white border-opacity-5 rounded-md">🏔️ I also like climbing mountains</p>
+                        <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#111111] text-xs border border-white border-opacity-5 rounded-md">🏔️ I also like climbing mountains</p>
                         <p class="absolute left-8 bottom-4 text-[8px]">Crib Goch, Wales</p>
                     </div>
                     <div class="box w-[49.5%] h-full relative overflow-hidden max-md:w-full max-md:h-[250px] max-md:mt-4 max-sm:h-[200px] max-xs:h-[160px]">
@@ -42,7 +48,7 @@
                             src="/corfu.jpg"
                             alt="corfu"
                         />
-                        <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#1B1B1B] text-xs border border-white border-opacity-5 rounded-md">📷 And I like photography</p>
+                        <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#111111] text-xs border border-white border-opacity-5 rounded-md">📷 And I like photography</p>
                         <p class="absolute left-8 bottom-4 text-[8px]">Corfu, Greece</p>
                     </div>
                 </div>
@@ -155,14 +161,127 @@
                                 />
                                 <p class="skill-text">Python</p>
                             </div>
+                            <div class="max-md:hidden">
+                                <div class="skill-container">
+                                    <img
+                                        class="skill-icon"
+                                        src="/skills/supabase.svg"
+                                        alt="supabase"
+                                    />
+                                    <p class="skill-text">Supabase</p>
+                                </div>
+                            </div>
+                            <div class="max-md:hidden">
+                                <div class="skill-container">
+                                    <img
+                                        class="skill-icon"
+                                        src="/skills/react.svg"
+                                        alt="react"
+                                    />
+                                    <p class="skill-text">React</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img
+                                    class="skill-icon"
+                                    src="/skills/express.svg"
+                                    alt="express"
+                                />
+                                <p class="skill-text">express.js</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="flex flex-col justify-between w-[24.5%] h-full max-xl:w-full max-xl:h-full max-xl:mt-4"> 
-            <div class="box w-full h-[49%] max-xl:h-[300px]"></div>
-            <div class="box w-full h-[49%] max-xl:h-[300px] max-xl:mt-4"></div>
+            <h1 class="text-3xl font-semibold max-sm:text-2xl">Projects <a class="text-xs text-blue-400 font-medium" href="/projects">View All Projects</a></h1>
+            <div class="box flex flex-col w-full h-[45%] p-8 max-xl:h-full max-xl:mt-4">
+                <div class="flex flex-col h-full">
+                    <h1 class="text-3xl font-semibold max-sm:text-2xl">EXP Discord Bots</h1>
+                    <div class="flex flex-col mt-4">
+                        <p class="text-sm">EXP is a video game clan with a community discord server with over <strong>11,000 members</strong> with a custom suite of bots providing a bank system, giveaways, moderation and more.</p>
+                        <div class="flex flex-col mt-4">
+                            <h2 class="text-xl font-medium">Stack</h2>
+                            <div class="flex flex-row flex-wrap mt-2">
+                                <div class="project-technology-container">
+                                    <img
+                                        class="project-technology-icon"
+                                        src="/skills/typescript.svg"
+                                        alt="typescript"
+                                    />
+                                    <p class="project-technology-text">Typescript</p>
+                                </div>
+                                <div class="project-technology-container">
+                                    <img
+                                        class="project-technology-icon"
+                                        src="/skills/bun.svg"
+                                        alt="bun"
+                                    />
+                                    <p class="project-technology-text">Bun</p>
+                                </div>
+                                <div class="project-technology-container">
+                                    <img
+                                        class="project-technology-icon"
+                                        src="/skills/turso.svg"
+                                        alt="turso"
+                                    />
+                                    <p class="project-technology-text">TursoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    class="w-fit px-4 py-2 font-bold bg-[#111111] border border-white border-opacity-5 rounded-md"
+                    href="/projects/exp"
+                >
+                    View More
+                </a>
+            </div>
+            <div class="box flex flex-col w-full h-[47%] p-8 max-xl:h-full max-xl:mt-4">
+                <div class="flex flex-col h-full">
+                    <h1 class="text-3xl font-semibold max-sm:text-2xl">EXP Discord Bots</h1>
+                    <div class="flex flex-col mt-4">
+                        <p class="text-sm">EXP is a video game clan with a community discord server with over <strong>11,000 members</strong> with a custom suite of bots providing a bank system, giveaways, moderation and more.</p>
+                        <div class="flex flex-col mt-4">
+                            <h2 class="text-xl font-medium">Stack</h2>
+                            <div class="flex flex-row flex-wrap mt-2">
+                                <div class="project-technology-container">
+                                    <img
+                                        class="project-technology-icon"
+                                        src="/skills/typescript.svg"
+                                        alt="typescript"
+                                    />
+                                    <p class="project-technology-text">Typescript</p>
+                                </div>
+                                <div class="project-technology-container">
+                                    <img
+                                        class="project-technology-icon"
+                                        src="/skills/bun.svg"
+                                        alt="bun"
+                                    />
+                                    <p class="project-technology-text">Bun</p>
+                                </div>
+                                <div class="project-technology-container">
+                                    <img
+                                        class="project-technology-icon"
+                                        src="/skills/turso.svg"
+                                        alt="turso"
+                                    />
+                                    <p class="project-technology-text">TursoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    class="w-fit px-4 py-2 font-bold bg-[#111111] border border-white border-opacity-5 rounded-md"
+                    href="/projects/exp"
+                >
+                    View More
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -177,7 +296,7 @@
     }
 
     .skill-container {
-        @apply flex flex-row items-center h-fit p-4 bg-[#242424] rounded-[8px] mr-2 mb-2 max-lg:p-3 max-md:p-2 max-xs:mr-1 max-xs:mb-1;
+        @apply flex flex-row items-center h-fit p-4 py-3 bg-[#242424] border border-white border-opacity-5 rounded-[8px] mr-2 mb-2 max-lg:p-3 max-md:p-2 max-xs:mr-1 max-xs:mb-1;
     }
 
     .skill-icon {
@@ -186,5 +305,17 @@
 
     .skill-text {
         @apply ml-2 font-medium max-md:ml-1 max-md:text-xs max-xs:text-[10px];
+    }
+
+    .project-technology-container {
+        @apply flex flex-row items-center h-fit p-2 bg-[#242424] border border-white border-opacity-5 rounded-[4px] mr-2 mb-2;
+    }
+
+    .project-technology-icon {
+        @apply w-4 h-4;
+    }
+
+    .project-technology-text {
+        @apply text-xs ml-2 font-medium;
     }
 </style>
