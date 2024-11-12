@@ -1,3 +1,7 @@
+<script>
+    import constants from "$lib/constants";
+</script>
+
 <div class="relative flex items-center justify-center w-screen h-full min-h-screen bg-[#101010] text-white">
     <div
         class="absolute w-screen h-full z-10 pointer-events-none"
@@ -21,7 +25,7 @@
                 </div>
                 <div class="box w-auto h-full aspect-square max-xl:hidden"></div>
             </div>
-            <div class="flex flex-col justify-between h-[65%] max-xl:flex max-xl:flex-col-reverse">
+            <div class="flex flex-col justify-between h-[66.5%] max-xl:flex max-xl:flex-col-reverse">
                 <div class="flex flex-row justify-between h-[49%] max-xl:h-[200px] max-xl:mt-4 max-md:mt-0 max-md:flex-col max-md:h-full">
                     <div class="box w-[49.5%] h-full relative overflow-hidden max-md:w-full max-md:h-[250px] max-sm:h-[200px] max-md:mt-4">
                         <img
@@ -46,7 +50,8 @@
                     <div class="grid grid-cols-2 gap-2 w-auto h-full aspect-square max-xl:ml-4">
                         <a
                             class="box-custom-bg bg-[#151515] w-auto h-full aspect-square p-9 max-md:p-5 hover:bg-black transition-all"
-                            href="/"
+                            href={constants.socials.x.url}
+                            target="_blank"
                         >
                             <img
                                 class="w-full h-full"
@@ -56,7 +61,8 @@
                         </a>
                         <a
                             class="box-custom-bg bg-[#151515] w-auto h-full aspect-square p-9 max-md:p-5 hover:bg-[#24292e] transition-all"
-                            href="/"
+                            href={constants.socials.github.url}
+                            target="_blank"
                         >
                             
                             <img
@@ -67,7 +73,8 @@
                         </a>
                         <a
                             class="box-custom-bg bg-[#151515] w-auto h-full aspect-square p-9 max-md:p-5 hover:bg-[#0a66c2] transition-all"
-                            href="/"
+                            href={constants.socials.linkedin.url}
+                            target="_blank"
                         >
                             
                             <img
@@ -78,7 +85,8 @@
                         </a>
                         <a
                             class="box-custom-bg bg-[#151515] w-auto h-full aspect-square p-9 max-md:p-5 hover:bg-[#c71610] transition-all"
-                            href="/"
+                            href={constants.socials.email.url}
+                            target="_blank"
                         >
                             
                             <img
