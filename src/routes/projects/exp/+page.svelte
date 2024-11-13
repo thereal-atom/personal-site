@@ -4,7 +4,7 @@
         <p>EXP is a video game clan which has a community discord server with over <strong>11,000 current members</strong> with a suite of custom discord bots.</p> 
         <p>Across the bots, there are lots of features that the members can take advantage of:</p>
         <ul>
-            <li>The main feature is the bank: members can donate their in-game gems to the clan, and receive balance within the discord server upon which they can gain interest, and gift gems to other members. The bank holds over <strong>10T gems</strong> for over <strong>5,000 members</strong>.</li>
+            <li>The main feature is the bank: members can donate their in-game gems to the clan, and receive balance within the discord server upon which they can gain interest, and gift gems to other members. The bank holds <strong>trillions of gems</strong> for <strong>thousands of members</strong>.</li>
             <li>Another feature is a robust giveaway system. There are 4 different types of giveaways that run multiple times a day, resulting in 1000s of dollars worth of in-game items given away per month. A new feature allows the users to host giveaways themselves with over 300B gems given away so far.</li>
             <li>There is a moderation system the admins can use in order to keep the peace within the discord server. This allows the moderation actions to be logged and viewed which makes for a better organized server.</li>
             <li>For each user feature, there are admin commands to allow the admins to manage everything.</li>
