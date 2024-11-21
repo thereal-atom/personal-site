@@ -14,8 +14,8 @@
             </div>
             <div class="box w-full h-full flex flex-col mx-4 p-8 max-xl:mr-0 max-md:mx-0 max-sm:p-6">
                 <h1 class="text-3xl font-semibold max-sm:text-2xl">Oscar Falemara</h1>
-                <span class="w-fit px-2 py-1 bg-[#111111] text-[8px] font-medium border border-white border-opacity-5 rounded-md">🚀 Open to Opportunities</span>
-                <p class="mt-8 text-[#DADDE7] max-2xl:mt-4 max-sm:text-sm">I'm a self-taught <span class="font-medium underline">full stack web developer</span> from <span class="pl-1 pr-1.5 py-0.5 bg-[#111111] font-medium border border-white border-opacity-5 rounded-md">📍London</span> with over 4 years of experience.</p>
+                <span class="w-fit px-2 py-1 bg-[#242424] text-[8px] font-medium border border-white border-opacity-5 rounded-md">🚀 Open to Opportunities</span>
+                <p class="mt-8 text-[#DADDE7] max-2xl:mt-4 max-sm:text-sm">I'm a self-taught <span class="font-medium underline">full stack web developer</span> from <span class="pl-1 pr-1.5 py-0.5 bg-[#242424] font-medium border border-white border-opacity-5 rounded-md">📍London</span> with over 4 years of experience.</p>
                 <p class="mt-4 text-[#DADDE7] max-sm:text-sm">Substantial knowledge about systems programming, machine learning, blockchain and more.</p>
             </div>
             <div class="box w-auto h-full aspect-square max-xl:hidden">
@@ -34,7 +34,7 @@
                         src="/cribgoch.jpg"
                         alt="cribgoch"
                     />
-                    <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#111111] text-xs border border-white border-opacity-5 rounded-md">🏔️ I also like climbing mountains</p>
+                    <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#242424] text-xs border border-white border-opacity-5 rounded-md">🏔️ I also like climbing mountains</p>
                     <p class="absolute left-8 bottom-4 text-[8px]">Crib Goch, Wales</p>
                 </div>
                 <div class="box w-[49.5%] h-full relative overflow-hidden max-md:w-full max-md:h-[250px] max-md:mt-4 max-sm:h-[200px] max-xs:h-[160px]">
@@ -43,7 +43,7 @@
                         src="/corfu.jpg"
                         alt="corfu"
                     />
-                    <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#111111] text-xs border border-white border-opacity-5 rounded-md">📷 And I like photography</p>
+                    <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#242424] text-xs border border-white border-opacity-5 rounded-md">📷 And I like photography</p>
                     <p class="absolute left-8 bottom-4 text-[8px]">Corfu, Greece</p>
                 </div>
             </div>
@@ -190,7 +190,12 @@
         </div>
     </div>
     <div class="flex flex-col justify-between w-[24.5%] h-full max-xl:w-full max-xl:h-full max-xl:mt-4"> 
-        <h1 class="text-3xl font-semibold max-sm:text-2xl">Projects <a class="text-xs text-blue-400 font-medium" href="/projects">View All Projects</a></h1>
+        <a
+            class="text-3xl font-semibold max-sm:text-2xl"
+            href="/projects"
+        >
+            Projects <span class="text-xs text-blue-400 font-medium">View All Projects</span>
+        </a>
         <div class="box flex flex-col w-full h-[45%] p-8 max-xl:h-full max-xl:mt-4">
             <div class="flex flex-col h-full">
                 <h1 class="text-3xl font-semibold max-sm:text-2xl">EXP Discord Bots</h1>
