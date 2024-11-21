@@ -1,7 +1,3 @@
-<script>
-    import { page } from "$app/stores";
-</script>
-
 <div class="flex flex-col p-8 w-screen">
     <div class="flex flex-row">
         <a
