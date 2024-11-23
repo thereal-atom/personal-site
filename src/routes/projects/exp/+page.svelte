@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Oscar | Projects | EXP</title>
+</svelte:head>
+
 <div class="flex flex-col h-full min-h-screen w-full mt-16 px-64 max-2xl:px-48 max-xl:px-8 max-md:px-0">
     <h1 class="text-3xl font-bold max-md:text-2xl">EXP Discord Bots</h1>
     <div class="flex flex-col mt-8 p-8 bg-[#161616] border border-white border-opacity-5 rounded-[32px]">

@@ -8,20 +8,20 @@
             <div class="box w-auto h-full aspect-square relative max-md:hidden">
                 <img
                     class="w-full h-full object-cover rounded-[32px] opacity-80 hover:opacity-100 transition-opacity"
-                    src="/oscar.jpg"
+                    src="/oscar.webp"
                     alt="oscar"
                 />
             </div>
             <div class="box w-full h-full flex flex-col mx-4 p-8 max-xl:mr-0 max-md:mx-0 max-sm:p-6">
                 <h1 class="text-3xl font-semibold max-sm:text-2xl">Oscar Falemara</h1>
-                <span class="w-fit px-2 py-1 bg-[#242424] text-[8px] font-medium border border-white border-opacity-5 rounded-md">🚀 Open to Opportunities</span>
+                <span class="w-fit mt-1 px-2 py-1 bg-[#242424] text-xs font-medium border border-white border-opacity-5 rounded-md">🚀 Open to Opportunities</span>
                 <p class="mt-8 text-[#DADDE7] max-2xl:mt-4 max-sm:text-sm">I'm a self-taught <span class="font-medium underline">full stack web developer</span> from <span class="pl-1 pr-1.5 py-0.5 bg-[#242424] font-medium border border-white border-opacity-5 rounded-md">📍London</span> with over 4 years of experience.</p>
                 <p class="mt-4 text-[#DADDE7] max-sm:text-sm">Substantial knowledge about systems programming, machine learning, blockchain and more.</p>
             </div>
             <div class="box w-auto h-full aspect-square max-xl:hidden">
                 <img
                     class="w-auto h-full min-w-full min-h-full object-cover rounded-[32px] opacity-80 hover:opacity-100 transition-opacity"
-                    src="/sunrise.jpg"
+                    src="/sunrise.webp"
                     alt="sunrise"
                 />
             </div>
@@ -31,7 +31,7 @@
                 <div class="box w-[49.5%] h-full relative overflow-hidden max-md:w-full max-md:h-[250px] max-md:mt-4 max-sm:h-[200px] max-xs:h-[160px]">
                     <img
                         class="absolute -top-8 opacity-60 hover:opacity-100 hover:scale-105 transition-all max-2xl:static max-2xl:w-auto max-2xl:h-full max-2xl:min-w-full max-2xl:min-h-full max-2xl:object-cover"
-                        src="/cribgoch.jpg"
+                        src="/cribgoch.webp"
                         alt="cribgoch"
                     />
                     <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#242424] text-xs border border-white border-opacity-5 rounded-md">🏔️ I also like climbing mountains</p>
@@ -40,7 +40,7 @@
                 <div class="box w-[49.5%] h-full relative overflow-hidden max-md:w-full max-md:h-[250px] max-md:mt-4 max-sm:h-[200px] max-xs:h-[160px]">
                     <img
                         class="absolute -top-4 opacity-60 hover:opacity-100 hover:scale-105 transition-all max-2xl:static max-2xl:w-auto max-2xl:h-full max-2xl:min-w-full max-2xl:min-h-full max-2xl:object-cover"
-                        src="/corfu.jpg"
+                        src="/corfu.webp"
                         alt="corfu"
                     />
                     <p class="absolute right-6 top-6 pr-3 pl-2.5 py-2 bg-[#242424] text-xs border border-white border-opacity-5 rounded-md">📷 And I like photography</p>

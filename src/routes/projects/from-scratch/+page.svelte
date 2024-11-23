@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Oscar | Projects | From Scratch</title>
+</svelte:head>
+
 <div class="flex flex-col h-full min-h-screen w-full mt-16 px-64 max-2xl:px-48 max-xl:px-8 max-md:px-0">
     <h1 class="text-3xl font-bold max-md:text-2xl">From Scratch</h1>
     <p class="mt-4">In Progress</p>
