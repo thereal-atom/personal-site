@@ -15,7 +15,7 @@
             <div class="box w-full h-full flex flex-col mx-4 p-8 max-xl:mr-0 max-md:mx-0 max-sm:p-6">
                 <h1 class="text-3xl font-semibold max-sm:text-2xl">Oscar Falemara</h1>
                 <span class="w-fit mt-1 px-2 py-1 bg-[#242424] text-xs font-medium border border-white border-opacity-5 rounded-md">🚀 Open to Opportunities</span>
-                <p class="mt-8 text-[#DADDE7] max-2xl:mt-4 max-sm:text-sm">I'm a self-taught <span class="font-medium underline">full stack web developer</span> from <span class="pl-1 pr-1.5 py-0.5 bg-[#242424] font-medium border border-white border-opacity-5 rounded-md">📍London</span> with over 4 years of experience.</p>
+                <p class="mt-8 text-[#DADDE7] max-2xl:mt-4 max-sm:text-sm">I'm a self-taught <span class="font-medium underline">full stack web developer</span> from <span class="pl-1 pr-1.5 py-0.5 bg-[#242424] font-medium border border-white border-opacity-5 rounded-md text-nowrap">📍London</span> with over 4 years of experience.</p>
                 <p class="mt-4 text-[#DADDE7] max-sm:text-sm">Substantial knowledge about systems programming, machine learning, blockchain and more.</p>
             </div>
             <div class="box w-auto h-full aspect-square max-xl:hidden">
@@ -237,7 +237,7 @@
                     class="w-fit px-4 py-2 font-bold bg-[#111111] border border-white border-opacity-5 rounded-md"
                     href="/projects/exp"
                 >
-                    View More
+                    Learn More
                 </a>
             </div>
         </div>
@@ -275,7 +275,7 @@
                     class="w-fit px-4 py-2 font-bold bg-[#111111] border border-white border-opacity-5 rounded-md"
                     href="/projects/from-scratch"
                 >
-                    View More
+                    Learn More
                 </a>
             </div>
         </div>
