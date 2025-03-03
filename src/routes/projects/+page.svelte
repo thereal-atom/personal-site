@@ -6,6 +6,7 @@
     <h1 class="text-3xl font-bold max-md:text-2xl">Projects</h1>
     <ul class="flex flex-col mt-4 list-disc ml-4">
         <li><a class="text-blue-500" href="/projects/exp">EXP Discord Bots</a></li> 
+        <li><a class="text-blue-500" href="/projects/obsidian-notes-ai">Obsidian Notes AI</a></li> 
         <li><a class="text-blue-500" href="/projects/from-scratch">From Scratch</a></li> 
     </ul>
 </div>

@@ -15,7 +15,7 @@ Software engineer, aerospace engineering student, entrepreneur and freelancer.
 
 ### EXP Discord Bots
 
-EXP is a video game clan which has a community discord server with over **11,000 members** with a suite of bots that I coded.
+EXP is a video game clan which has a community discord server with over **15,000 members** with a suite of bots that I coded.
 
 Across the bots, there are lots of features that the members can take advantage of:
 - The main feature is the bank: members can donate their in-game gems to the clan, and receive balance within the discord server upon which they can gain interest, and gift gems to other members. The bank holds trillions of gems.
@@ -26,3 +26,15 @@ Across the bots, there are lots of features that the members can take advantage 
 The bots are hosted on a VPS with a **custom CI/CD solution** which allows for rapid auto deployments and minimal down time.
 
 They're coded with Typescript on the bun runtime, and the server uses elysia, and a turso database.
+
+### Notes AI
+
+I build this project to learn how to use generative AI APIs, and practice my Next.js and tRPC skills.
+
+It's built with Next.js, tRPC and Tailwind via the create t3 template which was a very smooth experience. I am using the Google Gemini SDK and the Gemini 2.0 flash as well as text embedding models.
+
+You can upload your markdown files (mine come from obsidian), and ask the LLM questions about your notes.
+
+It'll reference your notes if it used them for it's response. Conversations are saved and chat history is applied to prompts.
+
+[<img src="https://github.com/thereal-atom/personal-site/blob/main/static/examples/obsidian-notes-ai.png">](https://oscarfal.vercel.app)

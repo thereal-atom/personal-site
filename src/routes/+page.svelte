@@ -2,9 +2,13 @@
     import constants from "$lib/constants";
 </script>
 
-<div class="flex flex-row items-center justify-between w-full h-[900px] p-8 max-xl:flex-col max-xl:h-full max-sm:p-4">
+<div
+    class="absolute w-screen h-full z-10 pointer-events-none"
+    style="background-size: 64px; background-repeat: repeat; background-image: url('/fuzzy.png'); opacity: 0.06;"
+></div>
+<div class="flex flex-row items-center justify-between w-full h-[900px] xl:h-screen p-8 max-xl:flex-col max-xl:h-full max-sm:p-4">
     <div class="flex flex-col justify-between w-[74.5%] h-full max-xl:w-full">
-        <div class="flex flex-row justify-between w-full h-[32%] max-xl:h-[250px] max-md:h-auto">
+        <div class="flex flex-row justify-between w-full h-[34%] max-xl:h-[250px] max-md:h-auto">
             <div class="box w-auto h-full aspect-square relative max-md:hidden">
                 <img
                     class="w-full h-full object-cover rounded-[32px] opacity-80 hover:opacity-100 transition-opacity"
@@ -26,8 +30,8 @@
                 />
             </div>
         </div>
-        <div class="flex flex-col justify-between h-[66.5%] max-xl:flex max-xl:flex-col-reverse">
-            <div class="flex flex-row justify-between h-[49%] max-xl:h-[200px] max-xl:mt-4 max-md:mt-0 max-md:flex-col max-md:h-full">
+        <div class="flex flex-col justify-between h-[64.75%] max-xl:flex max-xl:flex-col-reverse">
+            <div class="flex flex-row justify-between h-[47%] max-xl:h-[200px] max-xl:mt-4 max-md:mt-0 max-md:flex-col max-md:h-full">
                 <div class="box w-[49.5%] h-full relative overflow-hidden max-md:w-full max-md:h-[250px] max-md:mt-4 max-sm:h-[200px] max-xs:h-[160px]">
                     <img
                         class="absolute -top-8 opacity-60 hover:opacity-100 hover:scale-105 transition-all max-2xl:static max-2xl:w-auto max-2xl:h-full max-2xl:min-w-full max-2xl:min-h-full max-2xl:object-cover"
@@ -47,7 +51,7 @@
                     <p class="absolute left-8 bottom-4 text-[8px]">Corfu, Greece</p>
                 </div>
             </div>
-            <div class="flex flex-row justify-between h-[49%] max-xl:flex-row-reverse max-xl:h-[270px] max-xl:mt-4 max-md:flex-col-reverse max-md:h-full max-md:w-full">
+            <div class="flex flex-row justify-between h-[51%] max-xl:flex-row-reverse max-xl:h-[270px] max-xl:mt-4 max-md:flex-col-reverse max-md:h-full max-md:w-full">
                 <div class="grid grid-cols-2 gap-4 w-auto h-full aspect-square max-xl:ml-4 max-md:grid-cols-4 max-md:flex max-md:flex-row max-md:w-full max-md:h-auto max-md:aspect-auto max-md:ml-0 max-md:mt-4 max-xs:gap-2">
                     <a
                         class="box-custom-bg bg-[#151515] w-auto h-full aspect-square p-9 max-md:p-5 hover:bg-black transition-all max-md:w-full max-md:h-auto"
@@ -65,7 +69,6 @@
                         href={constants.socials.github.url}
                         target="_blank"
                     >
-                        
                         <img
                             class="w-full h-full"
                             src="/socials/github.svg"
@@ -198,9 +201,16 @@
         </a>
         <div class="box flex flex-col w-full h-[45%] p-8 max-xl:h-full max-xl:mt-4">
             <div class="flex flex-col h-full">
-                <h1 class="text-3xl font-semibold max-sm:text-2xl">EXP Discord Bots</h1>
+                <div class="flex flex-row-items-center">
+                    <img
+                        class="w-8 h-8 mt-[5px] rounded-md"
+                        src="/projects/exp-logo.webp"
+                        alt="exp"
+                    />
+                    <h1 class="ml-3 text-[28px] font-semibold max-sm:text-2xl">EXP Bots</h1>
+                </div>
                 <div class="flex flex-col mt-4">
-                    <p class="text-sm text-[#DADDE7]">EXP is a video game clan with a community discord server with over <strong>11,000 members</strong> with a custom suite of bots providing a bank system, giveaways, moderation and more.</p>
+                    <p class="text-sm text-[#DADDE7]">EXP is a video game clan with a community discord server with over <strong>15,000 members</strong> with a custom suite of bots providing a bank system, giveaways, moderation and more.</p>
                     <div class="flex flex-col mt-4">
                         <h2 class="text-xl font-medium">Stack</h2>
                         <div class="flex flex-row flex-wrap mt-2">
@@ -243,6 +253,69 @@
         </div>
         <div class="box flex flex-col w-full h-[47%] p-8 max-xl:h-full max-xl:mt-4">
             <div class="flex flex-col h-full">
+                <div class="flex flex-row-items-center">
+                    <img
+                        class="w-8 h-8 mt-[4px]"
+                        src="/projects/obsidian-notes-ai-logo.svg"
+                        alt="obsidian-notes-ai"
+                    />
+                    <h1 class="ml-3 text-[28px] font-semibold max-sm:text-2xl">Notes AI</h1>
+                </div>
+                <div class="flex flex-col mt-4">
+                    <p class="text-sm text-[#DADDE7]">I built this project to learn how to use generative AI APIs, and practice my Next.js and tRPC skills.</p>
+                    <p class="text-sm text-[#DADDE7] mt-2">Upload markdown files (mine come from obsidian), and ask the LLM questions about your notes.</p>
+                    <div class="flex flex-col mt-4">
+                        <h2 class="text-xl font-medium">Stack</h2>
+                        <div class="flex flex-row flex-wrap mt-2">
+                            <div class="project-technology-container">
+                                <img
+                                    class="project-technology-icon"
+                                    src="/skills/nextjs.svg"
+                                    alt="nextjs"
+                                />
+                                <p class="project-technology-text">Next.js</p>
+                            </div>
+                            <div class="project-technology-container">
+                                <img
+                                    class="project-technology-icon"
+                                    src="/skills/trpc.svg"
+                                    alt="trpc"
+                                />
+                                <p class="project-technology-text">tRPC</p>
+                            </div>
+                            <div class="project-technology-container">
+                                <img
+                                    class="project-technology-icon"
+                                    src="/skills/supabase.svg"
+                                    alt="supabase"
+                                />
+                                <p class="project-technology-text">Supabase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row items-center justify-end w-full">
+                <a
+                    href="https://github.com/thereal-atom/obsidian-notes-ai"
+                    target="_blank"
+                >
+                    <img
+                        class="w-8 h-8"
+                        src="/socials/github.svg"
+                        alt="github"
+                    />
+                </a>
+                <a
+                    class="w-fit ml-4 px-4 py-2 font-bold bg-[#111111] border border-white border-opacity-5 rounded-md"
+                    href="/projects/obsidian-notes-ai"
+                >
+                    Learn More
+                </a>
+            </div>
+        </div>
+        <!-- <div class="box flex flex-col w-full h-[47%] p-8 max-xl:h-full max-xl:mt-4">
+            <div class="flex flex-col h-full">
                 <h1 class="text-3xl font-semibold max-sm:text-2xl">From Scratch</h1>
                 <div class="flex flex-col mt-4">
                     <p class="text-sm text-[#DADDE7]">A series of projects I created to learn fundamentals across software engineering as well as solidify my typescript and rust programming skills.</p>
@@ -278,7 +351,7 @@
                     Learn More
                 </a>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 
